@@ -12,6 +12,7 @@
     <artifactId>coverage</artifactId>
 
     <dependencies>
+        <!--        declared into html, but all with jacoco parent for Jenkins-->
         <dependency>
             <groupId>com.kara4k.jacoco</groupId>
             <artifactId>moduleA</artifactId>
@@ -20,6 +21,12 @@
         <dependency>
             <groupId>com.kara4k.jacoco</groupId>
             <artifactId>moduleB</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.kara4k.jacoco</groupId>
+            <artifactId>innerA</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
