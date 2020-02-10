@@ -7,6 +7,8 @@ public class InnerClassTest {
 
     @Test
     public void doSmth() {
+        InnerClass innerClass = new InnerClass();
+        innerClass.doSmth();
         Assert.assertTrue(true);
     }
 }
